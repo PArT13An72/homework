@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница регистрации</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div id="container">
+    <form>
+        <input class="input text" required type="text" placeholder="ФИО">
+        <input class="input text" required type="text" placeholder="Дата рождения">
+        <p>Укажите Ваш пол:</p><br>
+        <div>
+            <input class="input text radio" required type="radio" name="gender" value="man">
+            <label for="genderChoiceOne">Мужчина</label>
+            <input class="input text radio" required type="radio" name="gender" value="woman">
+            <label for="genderChoiceTwo">Женщина</label>
+            <input class="input text radio" required type="radio" name="gender" value="person">
+            <label for="genderChoiceThree">Персона</label>
+        </div>
+        <input class="input text" required type="text" placeholder="EMail">
+        <input class="input text" required type="password" placeholder="Пароль">
+        <input class="input text" required type="password" placeholder="Пароль повторно">
+        <button class="submit text" style="margin-bottom: 20px">Зарегистрироваться</button>
+    </form>
+</div>
+</body>
+</html>
